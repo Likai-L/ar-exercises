@@ -6,6 +6,6 @@ puts "----------"
 
 # Your code goes here ...
 
-store1 = Store.first
-store2 = Store.second
-store1.name = "Burnaby_store"
+@store1 = Store.first
+@store2 = Store.second
+@store1.name = "Burnaby_store"

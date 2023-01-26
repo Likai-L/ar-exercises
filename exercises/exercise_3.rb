@@ -7,8 +7,8 @@ puts "----------"
 
 # Your code goes here ...
 
-store3 = Store.third
-store3.destroy
+@store3 = Store.third
+@store3.destroy
 
 
 
