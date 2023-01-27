@@ -9,9 +9,6 @@ puts "Exercise 6"
 puts "----------"
 
 # Your code goes here ...
-puts Store.count
-pp Store
-pp Employee
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
 @store1.employees.create(first_name: "Taylor", last_name: "Swift", hourly_rate: 60)
 @store2.employees.create(first_name: "Lana", last_name: "Del Rey", hourly_rate: 60)
